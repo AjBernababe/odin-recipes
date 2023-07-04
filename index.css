@@ -1,0 +1,28 @@
+@font-face {
+    font-family: norse;
+    src: url(./norse.ttf);
+}
+
+* {
+    background-color: rgb(90, 85, 85);
+    text-align: center;
+}
+
+.logo {
+    width: 200px;
+}
+.header {
+    font-family: norse;
+    font-size: 50px;
+    color: gold;
+}
+
+a {
+    font-family: norse;
+    font-size: 30px;
+    color: gold
+}
+
+ul {
+    list-style: none;
+}
