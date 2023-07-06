@@ -6,15 +6,11 @@
 * {
     background-color: rgb(65, 65, 65);
     text-align: center;
+    list-style: none;
 }
 
 .logo {
     width: 200px;
-}
-
-.photo {
-    width: 500px;
-    border-radius: 50px;
 }
 
 .boldtext,
@@ -32,16 +28,5 @@ a {
 }
 
 .title {
-    font-size: 30px;
-}
-
-.content {
-    color: white;
-    font-size: 20px;
-}
-
-ul,
-ol {
-    margin-right: 50px;
-    list-style: none;
+    font size: 30px;
 }
