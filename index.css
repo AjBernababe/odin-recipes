@@ -5,50 +5,74 @@
 
 * {
     background-color: rgb(65, 65, 65);
-    text-align: center;
     box-sizing: border-box;
 }
 
 .logo {
-    width: 200px;
+    display: block;
+    margin: 50px auto;
+    width: 300px;
 }
 
-.photo {
-    width: 500px;
-    border-radius: 50px;
-    border: 3px solid gold;
-}
-
-.boldtext,
-a {
+.boldtext {
     font-family: norse, Arial, Helvetica, sans-serif;
     color: gold;
 }
 
-.main {
+.homepage {
+    text-align: center;
     font-size: 100px;
 }
 
 .menu {
-    font-size: 50px;
+    display: block;
     border: 3px solid gold;
-    text-decoration: none;
-    margin: 10px;
-    padding: 10px;
     border-radius: 50px;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 60px;
+    text-decoration: none;
+    color: gold;
+}
+
+.firstpart,
+.secondpart {
+    margin: 50px;
+}
+
+.firstlayer{
+    display: inline-block;
+}
+
+.photo {
+    width: 600px;
+    border-radius: 50px;
+    border: 3px solid gold;
+}
+
+.secondlayer {
+    display: inline-block;
+    margin-left: 50px;
+    width: 1130px;
+    vertical-align: 90px;
+
 }
 
 .title {
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .content {
+    font-size: 30px;
     color: white;
-    font-size: 20px;
 }
 
-ul,
-ol {
-    margin-right: 50px;
-    list-style: none;
+.return {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 30px;
+    color: gold;
 }
