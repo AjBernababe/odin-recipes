@@ -1,0 +1,84 @@
+@font-face {
+    font-family: norse;
+    src: url(./norse.ttf);
+}
+@font-face {
+    font-family: roboto;
+    src: url(./roboto.ttf);
+}
+
+* {
+    background-color: rgb(65, 65, 65);
+    box-sizing: border-box;
+    font-family: roboto;
+}
+
+.logo {
+    display: block;
+    margin: 50px auto;
+    width: 300px;
+}
+
+.boldtext {
+    font-family: norse;
+    color: gold;
+}
+
+.homepage {
+    text-align: center;
+    font-size: 100px;
+}
+
+.menu {
+    font-family: norse;
+    display: block;
+    border: 3px solid gold;
+    border-radius: 50px;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 60px;
+    text-decoration: none;
+    color: gold;
+}
+
+.firstpart,
+.secondpart {
+    margin: 50px;
+}
+
+.firstlayer{
+    display: inline-block;
+}
+
+.photo {
+    width: 600px;
+    border-radius: 50px;
+    border: 3px solid gold;
+}
+
+.secondlayer {
+    display: inline-block;
+    margin-left: 50px;
+    width: 1130px;
+    vertical-align: 90px;
+
+}
+
+.title {
+    font-size: 50px;
+}
+
+.content {
+    font-size: 30px;
+    color: white;
+}
+
+.return {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 30px;
+    color: gold;
+}
