@@ -2,10 +2,15 @@
     font-family: norse;
     src: url(./norse.ttf);
 }
+@font-face {
+    font-family: roboto;
+    src: url(./roboto.ttf);
+}
 
 * {
     background-color: rgb(65, 65, 65);
     box-sizing: border-box;
+    font-family: roboto;
 }
 
 .logo {
@@ -15,7 +20,7 @@
 }
 
 .boldtext {
-    font-family: norse, Arial, Helvetica, sans-serif;
+    font-family: norse;
     color: gold;
 }
 
@@ -25,6 +30,7 @@
 }
 
 .menu {
+    font-family: norse;
     display: block;
     border: 3px solid gold;
     border-radius: 50px;
@@ -36,13 +42,9 @@
     color: gold;
 }
 
-.firstpart,
-.secondpart {
+.firstpart {
     margin: 50px;
-}
-
-.firstlayer{
-    display: inline-block;
+    display: flex;
 }
 
 .photo {
@@ -51,12 +53,12 @@
     border: 3px solid gold;
 }
 
-.secondlayer {
-    display: inline-block;
+.right {
     margin-left: 50px;
-    width: 1130px;
-    vertical-align: 90px;
+}
 
+.secondpart {
+    margin: 50px;
 }
 
 .title {
